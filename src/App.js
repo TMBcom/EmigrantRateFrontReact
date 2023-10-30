@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       
       <div className="Header">
-        <p>header</p>
+        <Header/>
       </div>
 
       <div className='Content'>
