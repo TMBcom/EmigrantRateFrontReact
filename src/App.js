@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer';
-import ContentMainPage from './Components/ContentMainPage';
+import Footer from './Components/Footer/Footer';
+import ContentMainPage from './Components/Body/ContentMainPage';
 
 function App() {
   return (
