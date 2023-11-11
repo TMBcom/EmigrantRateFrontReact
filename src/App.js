@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import ContentMainPage from './Components/Body/ContentMainPage';
 
 function App() {
   return (
 
     <div className="App">
-      
+
+
       <div className="Header">
-        <p>header</p>
+        <Header />
       </div>
-
       <div className='Content'>
-        <p>Content</p>
+        <ContentMainPage />
       </div>
-
       <div className='Footer'>
-        <p>Footer</p>
+        <Footer />
       </div>
-
     </div>
   );
 }
+
 
 export default App;
