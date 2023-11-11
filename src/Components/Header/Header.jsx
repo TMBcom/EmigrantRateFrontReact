@@ -15,7 +15,7 @@ function Header() {
       </div>
 
       <div className='Find_Emigrant'>
-        <a href='#'>Поиск Эмигрантов</a>
+        <a href='#'>Поик Эмигрантов</a>
       </div>
 
       </div>
