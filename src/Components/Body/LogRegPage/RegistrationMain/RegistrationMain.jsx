@@ -1,11 +1,11 @@
 import React from 'react';
-import style from './LoginMain.module.css';
+import style from './RegistrationMain.module.css';
 
-function LoginMain() {
+function RegistrationMain() {
     return(
-    <div className={style.login}>
+    <div className={style.registration}>
         <div className={style.elem}>
-        ddddd
+        dfdffdf_
         </div>
         <div className={style.elem}>
         dfdffdf
@@ -14,4 +14,4 @@ function LoginMain() {
     );
 }
 
-export default LoginMain;
+export default RegistrationMain;
