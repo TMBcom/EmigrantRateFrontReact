@@ -1,9 +1,13 @@
 import React from 'react';
+import LogRegPage from './LogRegPage/LogRegPage';
+import style from './Body_Main.module.css';
 
-function ContentMainPage() {
+function Body_Main() {
     return(
-    <p>Какой-то контент </p>
+        <div className={style.Body_Main}>
+    <LogRegPage />
+    </div>
     );
 }
 
-export default ContentMainPage;
+export default Body_Main;
