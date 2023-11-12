@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header_Main/Header';
 import Footer from './Components/Footer_Main/Footer_Main';
-import ContentMainPage from './Components/Body/Body_Main';
+import Body from './Components/Body/Body_Main';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Header />
       </div>
       <div className='Content'>
-        <ContentMainPage />
+        <Body />
       </div>
       <div className='Footer'>
         <Footer />
