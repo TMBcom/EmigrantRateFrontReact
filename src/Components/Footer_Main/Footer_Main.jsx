@@ -1,22 +1,14 @@
 import React from 'react';
+import style from './Footer_Main.module.css';
 
-function Footer() {
+
+function Footer_Main() {
     return(
-        <div className='Footer'>
-        <div className='Navigation_footer'>
-          <div className='Help'>
-            <a href='#'>Помощь</a>
-          </div>
-  
-          <div className='Contacts'>
-            <a href='#'>Контакты</a>
-          </div>
-          <div className='About_us'>
-            <a href='#'>О нас</a>
-          </div>
-        </div>      
+      <div className={style.Footer_Main}>
+       
       </div>
+
     );
 }
 
-export default Footer;
+export default Footer_Main;

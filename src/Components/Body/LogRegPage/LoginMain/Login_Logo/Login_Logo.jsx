@@ -3,7 +3,7 @@ import style from './Login_Logo.module.css';
 
 function Login_Logo() {
     return(
-    <div className={style.login}>
+    <div className={style.Login_Logo}>
         </div>
     );
 }
