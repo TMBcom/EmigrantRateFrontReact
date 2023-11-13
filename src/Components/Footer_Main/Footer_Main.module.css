@@ -1,0 +1,11 @@
+.Footer_Main{
+    padding: 3vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+.Footer_Container{
+}
