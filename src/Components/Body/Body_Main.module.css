@@ -1,0 +1,7 @@
+.Body_Main
+{
+    border-left: 1px solid #d4d4d4;
+    padding: 1em;
+    overflow: hidden;
+    flex:   1 0 auto;
+}

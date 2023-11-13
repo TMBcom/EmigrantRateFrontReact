@@ -4,8 +4,8 @@ import style from './Header_Main.module.css';
 
 function Header() {
     return(
-      <div class={style.black_square_container}>
-      <div class={style.black_square}></div>
+      <div class={style.Header_Main}>
+      Some content
     </div>
 
     );
