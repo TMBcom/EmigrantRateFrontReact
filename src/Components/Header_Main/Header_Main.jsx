@@ -5,7 +5,7 @@ import style from './Header_Main.module.css';
 function Header() {
     return(
       <div class={style.Header_Main}>
-      Some content
+      Logo Emigrant Employer Login Registration
     </div>
 
     );

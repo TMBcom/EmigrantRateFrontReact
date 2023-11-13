@@ -1,7 +1,14 @@
 .Body_Main
-{
-    border-left: 1px solid #d4d4d4;
+{   
     padding: 1em;
     overflow: hidden;
-    flex:   1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Body_Box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
 }
