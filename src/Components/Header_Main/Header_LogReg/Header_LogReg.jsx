@@ -5,9 +5,9 @@ import {Link} from "react-router-dom";
 function Header_LogReg() {
     return(
       <div className={style.Header_LogReg}>
-       <Link to='/LoginPage'>Login</Link>
+       <Link to='/LoginPage'>Войти</Link>
        |
-       <Link to='/RegistrationPage'>Registration</Link>
+       <Link to='/RegistrationPage'>Регистрация</Link>
       </div>
     );
 }

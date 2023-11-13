@@ -1,7 +1,10 @@
 .LogReg
 {
-    width: 200px;
-    height: 200px;
     background-color: black;
     color: white;
+    font-size: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
 }
