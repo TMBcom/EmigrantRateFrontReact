@@ -1,15 +1,14 @@
 import React from 'react';
 import style from './Header_LogReg.module.css';
-
+import {Link} from "react-router-dom";
 
 function Header_LogReg() {
     return(
       <div className={style.Header_LogReg}>
-       <a href='#'>Login</a>
+       <Link to='/LoginPage'>Login</Link>
        |
-       <a href='#'>Registration</a>
+       <Link to='/RegistrationPage'>Registration</Link>
       </div>
-
     );
 }
 
