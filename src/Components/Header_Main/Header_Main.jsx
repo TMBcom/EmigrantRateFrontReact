@@ -4,9 +4,9 @@ import style from './Header_Main.module.css';
 
 function Header() {
     return(
-      <div className={style.Header_Main}>
-       
-      </div>
+      <div class={style.black_square_container}>
+      <div class={style.black_square}></div>
+    </div>
 
     );
 }
