@@ -1,8 +1,17 @@
 
 .Header_Main{
+    padding: 15px;
+    background-color: black;
+}
+.Header_Container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-     padding: 15px;
-    background-color: #e9e9e9;
+    justify-content:space-between;
+    font-size:30px;
+    color: white;
+}
+a
+{
+    color: white;
+    text-decoration: none;
 }

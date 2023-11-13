@@ -1,8 +1,11 @@
 .Footer_Main{
-    padding: 55px 20px;
-    background-color: #2e3550;
+    padding: 3vh;
+    background-color:black;
     color: white;
-    text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: auto;
+}
+.Footer_Container{
 }

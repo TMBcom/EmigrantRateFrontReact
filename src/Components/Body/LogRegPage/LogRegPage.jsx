@@ -6,8 +6,8 @@ import RegistrationMain from './RegistrationMain/RegistrationMain';
 function LogRegPage() {
     return(
     <div className={style.LogReg}>
-        <LoginMain />
-        <RegistrationMain />
+        <LoginMain/>
+        <RegistrationMain/>
         </div>
     );
 }
