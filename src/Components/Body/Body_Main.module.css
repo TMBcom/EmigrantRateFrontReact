@@ -1,5 +1,12 @@
 .Body_Main
-{
-    background-color: aqua;
-    display: block; 
+{   
+    padding: 1em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Body_Container{
+    
 }

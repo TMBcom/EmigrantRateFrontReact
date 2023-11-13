@@ -1,22 +1,17 @@
 import React from 'react';
+import style from './Footer_Main.module.css';
 
-function Footer() {
+
+function Footer_Main() {
     return(
-        <div className='Footer'>
-        <div className='Navigation_footer'>
-          <div className='Help'>
-            <a href='#'>Помощь</a>
-          </div>
-  
-          <div className='Contacts'>
-            <a href='#'>Контакты</a>
-          </div>
-          <div className='About_us'>
-            <a href='#'>О нас</a>
-          </div>
-        </div>      
-      </div>
+      <div class={style.Footer_Main}>
+        <div class={style.Footer_Container}>
+       link_text link_button link_logo footer_websiteInfoShort CompanyLogo About_button Contast_button 
+       LatestNews_Button Portfolio_Button
+       </div>
+    </div>
+
     );
 }
 
-export default Footer;
+export default Footer_Main;

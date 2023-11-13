@@ -3,13 +3,8 @@ import style from './LoginMain.module.css';
 
 function LoginMain() {
     return(
-    <div className={style.login}>
-        <div className={style.elem}>
-        ddddd
-        </div>
-        <div className={style.elem}>
-        dfdffdf
-        </div>
+    <div className={style.Login_Main}>
+        Login_box
         </div>
     );
 }
