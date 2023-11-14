@@ -8,11 +8,10 @@ import Header_LogReg from './Header_LogReg/Header_LogReg';
 function Header() {
     return(
       <div class={style.Header_Main}>
-        <div class={style.Header_Container}>
+        
           <Header_Logo/>
           <Header_Body/>
           <Header_LogReg/>
-      </div>
     </div>
 
     );

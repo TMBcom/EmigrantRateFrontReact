@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function Header_Logo() {
     return(
       <div className={style.Header_Logo}>
-       <Link to='/MainPage'>"Здесь мог быть ваш логотип"</Link>
+       <Link to='/MainPage'>EmigrantRate</Link>
       </div>
 
     );

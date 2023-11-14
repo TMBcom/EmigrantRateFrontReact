@@ -5,10 +5,11 @@ import RegistrationMain from './RegistrationMain/RegistrationMain';
 import {Routes, Route} from "react-router-dom";
 
 function LogRegPage() {
+    var IsPageExit = true;
     return(
     <div className={style.LogReg}>
     <Routes>
-        <Route path="/LoginPage" element={<LoginMain />}/>
+        <Route path="/LoginPage" element={IsPageExit ? (<LoginMain />) : (<h1>No page found...</h1>)}/>
         <Route path="/RegistrationPage" element={<RegistrationMain />}/>
     </Routes>
         </div>
