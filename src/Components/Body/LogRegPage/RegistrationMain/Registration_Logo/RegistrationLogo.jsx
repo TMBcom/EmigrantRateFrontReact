@@ -5,7 +5,7 @@ import style from './RegistrationLogo.module.css';
 function Registration_Logo() {
     return(
       <div className={style.Registration_Logo}>
-       <div>Регистрация</div>
+       Регистрация
       </div>
 
     );
