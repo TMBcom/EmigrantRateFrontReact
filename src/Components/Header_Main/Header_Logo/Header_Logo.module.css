@@ -1,3 +1,8 @@
-.Header_Logo {
-    color: white;
-  }
+.Header_Logo
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 1vh;
+}

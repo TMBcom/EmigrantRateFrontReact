@@ -1,12 +1,12 @@
+:root{
+    --padding-block:14vh;
+}
+
 .Body_Main
 {   
-    padding: 1em;
-    overflow: hidden;
+    padding-top: var( --padding-block);
+    padding-bottom: var( --padding-block);
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-.Body_Container{
-    
 }

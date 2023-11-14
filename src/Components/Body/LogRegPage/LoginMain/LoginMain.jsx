@@ -3,6 +3,7 @@ import style from './LoginMain.module.css';
 import Login_Logo from './Login_Logo/Login_Logo';
 import Login_Info from './Login_Info/Login_Info';
 import Login_Button from './Login_Button/Login_Button';
+import Body_Main from './../../Body_Main';
 
 function LoginMain() {
     return(

@@ -1,39 +1,9 @@
 .Header_EmployerPage {
-    padding-right: 10px;
-    padding-left: 10px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1vh;
   }
   
-  .Header_EmployerPage:after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: -3px;
-    width: 0;
-    height: 2px;
-    /* Высота линии */
-    background-color: grey;
-    /* Цвет подчеркивания при исчезании линии*/
-    transition: width 0.5s;
-    /* Время эффекта */
-  }
-  
-  .Header_EmployerPage:hover:after {
-    content: "";
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 2px;
-    /* Высота линии */
-    background-color: white;
-    /* Цвет подчеркивания при появлении линии*/
-    transition: width 0.5s;
-    /* Время эффекта */
-  }
   
