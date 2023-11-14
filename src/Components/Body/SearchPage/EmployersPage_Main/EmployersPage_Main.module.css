@@ -1,0 +1,14 @@
+.EmployersPage_Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    padding-left: 10vh;
+    padding-right: 10vh; 
+}
+.EmployersPage_container{
+    padding-top: 5vh;
+}

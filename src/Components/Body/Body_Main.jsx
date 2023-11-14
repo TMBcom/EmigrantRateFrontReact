@@ -5,6 +5,8 @@ import MainPage from './MainPage/MainPage';
 import LoginMain from './LogRegPage/LoginMain/LoginMain';
 import RegistrationMain from './LogRegPage/RegistrationMain/RegistrationMain';
 import Layout from './Layout.jsx';
+import EmigrantPage_Main from './SearchPage/EmigrantPage_Main/EmigrantPage_Main';
+import EmployersPage_Main from './SearchPage/EmployersPage_Main/EmployersPage_Main';
 
 let IsPageExit = true;
 function Body_Main() {
@@ -15,6 +17,8 @@ function Body_Main() {
         <Route index path="MainPage" element={IsPageExit ? (<MainPage/>) : (<h1>No page found...</h1>)}/>
         <Route path="LoginPage" element={<LoginMain/>}/>
         <Route path="RegistrationPage" element={<RegistrationMain/>}/>
+        <Route path="EmigrantPage" element={<EmigrantPage_Main/>}/>
+        <Route path="EmployerPage" element={<EmployersPage_Main/>}/>
         </Route>
     </Routes>
       </div>
