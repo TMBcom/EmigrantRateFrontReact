@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header_Main/Header_Main';
 import Footer from './Components/Footer_Main/Footer_Main';
-import Body from './Components/Body/Body_Main';
+import Layout from './Components/Body/Layout';
+import Body_Main from './Components/Body/Body_Main';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
     <div className="App">
         <Header />
-        <Body />
+        <Body_Main/>
         <Footer />
         </div>
   );

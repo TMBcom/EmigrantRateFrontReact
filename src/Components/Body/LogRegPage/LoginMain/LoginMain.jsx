@@ -8,9 +8,11 @@ import Body_Main from './../../Body_Main';
 function LoginMain() {
     return(
     <div className={style.Login_Main}>
+         <div className={style.Login_Container}>
         <Login_Logo/>
         <Login_Info/>
        <Login_Button/>
+        </div>
         </div>
     );
 }
