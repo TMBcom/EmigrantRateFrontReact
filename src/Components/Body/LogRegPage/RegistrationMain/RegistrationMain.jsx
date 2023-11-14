@@ -7,9 +7,11 @@ import Registration_Info from './Registration_Info/Registration_Info';
 function RegistrationMain() {
     return(
     <div className={style.Registration_Main}>
+        <div className={style.Registration_Container}>
         <Registration_Logo/>
         <Registration_Info/>
        <Registration_Button/>
+       </div>
         </div>
     );
 }

@@ -1,9 +1,4 @@
-
-.Login_Main{
-    padding-top: 14vh;
-    padding-bottom: 21.4vh;
-}
-.Login_Container{
+.MainPage{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +6,10 @@
     background-color: black;
     color: white;
     font-size: 3vh;
-    padding-left: 6vh;
-    padding-right: 6vh; 
+    padding-left: 10vh;
+    padding-right: 10vh; 
+    
+}
+.MainPage_container{
+  padding-top: 5vh;
 }
