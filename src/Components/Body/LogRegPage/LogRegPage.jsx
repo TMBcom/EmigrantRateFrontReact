@@ -10,10 +10,8 @@ function LogRegPage() {
     <div className={style.LogReg}>
     <Routes>
         <Route path="/LoginPage" element={<LoginMain />}/>
-        <Route path="/EmigrantPage" element={<EmigrantPage_Main />}/>
         <Route path="/RegistrationPage" element={<RegistrationMain />}/>
         <Route path="/EmployerPage" element={<EmployersPage_Main/>}/>
-
     </Routes>
         </div>
 
