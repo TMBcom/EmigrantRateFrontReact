@@ -4,11 +4,19 @@ import Link_Text from './Link_Text/Link_Text';
 import Link_Button from './Link_Button/Link_Button';
 
 
-function Footer_SocialLink() {
+const Footer_SocialLink = (props) => {
     return(
       <div className={style.Footer_SocialLink}>
-        <Link_Text/>
+        <div className={style.Footer_SocialLink_Text}>
+        <Link_Text text='Telegram'/>
+        <Link_Text text='Vk'/>
+        <Link_Text text='Reddit'/>
+        </div>
+        <div className={style.Footer_SocialLink_Button}>
         <Link_Button/>
+        <Link_Button/>
+        <Link_Button/>
+        </div>
       </div>
 
     );

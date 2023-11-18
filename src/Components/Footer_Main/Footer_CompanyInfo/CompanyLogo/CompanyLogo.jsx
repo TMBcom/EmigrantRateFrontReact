@@ -7,7 +7,7 @@ function CompanyLogo() {
     return(
       <div className={style.CompanyLogo}>
         <Link to='https://vk.com/tmb_command' className='Link_Style'>
-      <img src={Compani_logo} alt="TMB_Logo" height="150"/>
+      <img src={Compani_logo} alt="TMB_Logo" height="50"/>
       </Link>
       <div>
       TwoMenBand studio
