@@ -9,7 +9,10 @@ const Footer_Info =(props) => {
     return(
       <div className={style.Footer_Info}>
         <div className={style.Footer_SocialLinks_Text}>
-        <Footer_SocialLink SocialLinks={props.links}/>
+        <Footer_SocialLink 
+        state = {props.state}  
+        dispatch={props.dispatch}
+        />
         </div>
         <Footer_Logo/>
       </div>

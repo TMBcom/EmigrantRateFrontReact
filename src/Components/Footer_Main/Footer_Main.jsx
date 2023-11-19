@@ -8,7 +8,10 @@ import Footer_CompanyInfo from './Footer_CompanyInfo/Footer_CompanyInfo';
 const Footer_Main = (props) => {
     return(
       <div class={style.Footer_Main}>
-          <Footer_Info links={props.footerinfo} />
+          <Footer_Info 
+          state = {props.state}  
+          dispatch={props.dispatch}
+          />
           <Footer_CompanyInfo/>
     </div>
 
