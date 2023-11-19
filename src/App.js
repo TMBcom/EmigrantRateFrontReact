@@ -5,13 +5,14 @@ import Footer from './Components/Footer_Main/Footer_Main';
 import Body_Main from './Components/Body/Body_Main';
 
 
+
 const App = (props) => {
   return (
 
     <div className="App">
         <Header />
         <Body_Main/>
-        <Footer SocialSites = {props.Website} />
+        <Footer footerinfo = {props.state.SocialLinks} />
         </div>
   );
 }

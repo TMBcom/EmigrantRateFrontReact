@@ -4,10 +4,11 @@ import Footer_Info from './Footer_Info/Footer_Info';
 import Footer_CompanyInfo from './Footer_CompanyInfo/Footer_CompanyInfo';
 
 
+
 const Footer_Main = (props) => {
     return(
       <div class={style.Footer_Main}>
-          <Footer_Info Sites={props} />
+          <Footer_Info links={props.footerinfo} />
           <Footer_CompanyInfo/>
     </div>
 
