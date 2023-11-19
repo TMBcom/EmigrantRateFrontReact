@@ -1,5 +1,5 @@
-const ADD_LINK = 'ADD-NEW-LINK';
-const UPDATE_LINKS = 'UPDATE-NEW-LINK-TEXT';
+import LinksReducer from "./Links-reducer";
+
 
 let store=  {
 _state:{
@@ -22,30 +22,12 @@ subscribe(observer)
 {
   this._rerenderEntireTree = observer;
 },
-
+  
 //меняют стейт
 dispatch(action){
-if (action.type === 'ADD-NEW-LINK'){
-  let SocialLink ={
-    textlink:this._state.NewLinkText,
-    link: 'https://Youtube.com',
-    logo: ''
-  };
-  this._state.SocialLinks.push(SocialLink);
-  this._state.NewLinkText ='';
+  this._state = LinksReducer(this._state, action);
   this._rerenderEntireTree(this._state);
-}
-else if (action.type === 'UPDATE-NEW-LINK-TEXT'){
-  this._state.NewLinkText = action.newText;
-  this._rerenderEntireTree(this._state);
-}
 }
 };
-
-export const addLinkText = ()=>({type:ADD_LINK});
-export const updateLinks = (text)=>(
-  {type:UPDATE_LINKS, newText:text}
-  );
-
 export default store;
 window.store = store;//проверка состояния в консоли
