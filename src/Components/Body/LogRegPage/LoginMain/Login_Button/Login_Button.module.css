@@ -1,7 +1,7 @@
 .Login_Button{
     margin:6vh;
 }
-button:not([class]){
+.button{
     padding: 2vh 4vh;
     text-transform: uppercase;
     color: #fff;
@@ -13,11 +13,11 @@ button:not([class]){
     outline: none;
 }
 
-button:not([class]):hover {
+.button:hover {
     background-color: #1e88e5;
 }
 
-button:not([class]):before, button:not([class]):after{
+.button:before, .button:after{
     position: absolute;
     content: '';
     width: 20%;
@@ -26,31 +26,31 @@ button:not([class]):before, button:not([class]):after{
     z-index: -1;
 }
 
-button:not([class]):before{
+.button:before{
     border-bottom: 4px solid #1e88e5;
     border-left: 4px solid #1e88e5;
     top: 60%;
     left: -5%;
 }
 
-button:not([class]):after {
+.button:after {
     border-top: 4px solid #1e88e5;
     border-right: 4px solid #1e88e5;
     bottom: 60%;
     right: -5%;
 }
 
-button:not([class]):active:before {
+.button:active:before {
     top: 65%;
     left: -8%;
 }
 
-button:not([class]):active:after{
+.button:active:after{
     bottom: 65%;
     right: -8%;
 }
 
-button:not([class]):active:before, button:not([class]):active:after{
+.button:active:before, .button:active:after{
     width: 30%;
     height: 60%;
 }

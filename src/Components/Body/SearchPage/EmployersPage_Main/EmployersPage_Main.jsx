@@ -6,7 +6,11 @@ function EmployersPage_Main() {
     return(
       <div className={style.EmployersPage_container}>
       <div className={style.EmployersPage_Main}>
-      Employer
+      <form className={style.form} onsubmit="event.preventDefault();" role="search">
+  <label className={style.label} for="search">Search for stuff</label>
+  <input className={style.input} id="search" type="search" placeholder="поиск эмигрантов" autofocus required />
+  <button className={style.button} type="submit">Поиск</button>    
+</form>
       </div>
 </div>
     );

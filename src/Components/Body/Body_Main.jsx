@@ -13,13 +13,11 @@ function Body_Main() {
     return(
         <div class={style.Body_Main}>
             <Routes>
-                <Route path="/" element={<Layout />}>
         <Route index path="/" element={IsPageExit ? (<MainPage/>) : (<h1>No page found...</h1>)}/>
         <Route path="LoginPage" element={<LoginMain/>}/>
         <Route path="RegistrationPage" element={<RegistrationMain/>}/>
         <Route path="EmigrantPage" element={<EmigrantPage_Main/>}/>
         <Route path="EmployerPage" element={<EmployersPage_Main/>}/>
-        </Route>
     </Routes>
       </div>
     );
