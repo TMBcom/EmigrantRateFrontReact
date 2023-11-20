@@ -7,6 +7,7 @@ import RegistrationMain from './LogRegPage/RegistrationMain/RegistrationMain';
 import Layout from './Layout.jsx';
 import EmigrantPage_Main from './SearchPage/EmigrantPage_Main/EmigrantPage_Main';
 import EmployersPage_Main from './SearchPage/EmployersPage_Main/EmployersPage_Main';
+import Profile_Main from './ProfilePage/Profile_Main/Profile_Main';
 
 let IsPageExit = true;
 function Body_Main() {
@@ -18,6 +19,7 @@ function Body_Main() {
         <Route path="RegistrationPage" element={<RegistrationMain/>}/>
         <Route path="EmigrantPage" element={<EmigrantPage_Main/>}/>
         <Route path="EmployerPage" element={<EmployersPage_Main/>}/>
+        <Route path="Profile" element={<Profile_Main/>}/>
     </Routes>
       </div>
     );

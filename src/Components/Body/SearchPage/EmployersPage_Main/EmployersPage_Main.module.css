@@ -13,6 +13,7 @@
 }
 .EmployersPage_container{
     padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 :root {
@@ -60,7 +61,6 @@
   top: 0;
   right: 0;
   width: var(--btn-width);
-  font-weight: bold;
   background: var(--color-brand);
   border-radius: 0 var(--rad) var(--rad) 0;
 }
@@ -80,3 +80,4 @@
   width: 1px;
   overflow: hidden;
 }
+

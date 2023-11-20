@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './EmigrantPage_Main.module.css';
-
+import Employer_Catalog from './Employer_Catalog/Employer_Catalog';
 
 function EmigrantPage_Main() {
     return(
@@ -12,6 +12,9 @@ function EmigrantPage_Main() {
   <button className={style.button} type="submit">Поиск</button>    
 </form>
       </div>
+      <Employer_Catalog/>
+      <Employer_Catalog/>
+      <Employer_Catalog/>
 </div>
     );
 }
