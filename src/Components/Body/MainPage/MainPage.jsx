@@ -3,11 +3,13 @@ import style from './MainPage.module.css';
 
 function MainPage() {
     return(
-        <div class={style.MainPage_container}>
-        <div class={style.MainPage}>
-            Главная страница
-            <br/>
-            какая-то тупая информация ааааааа
+        <div className={style.MainPage_container}>
+        <div className={style.MainPage}>
+<div className={style.fire}>
+
+ <div className={style.match} role="img" aria-label="A drawing of a match burning"></div>
+
+</div>
       </div>
       </div>
     );

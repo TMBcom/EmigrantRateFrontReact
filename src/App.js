@@ -12,7 +12,10 @@ const App = (props) => {
     <div className="App">
         <Header />
         <Body_Main/>
-        <Footer footerinfo = {props.state.SocialLinks} />
+        <Footer 
+        state = {props.state}  
+        dispatch={props.dispatch}
+        />
         </div>
   );
 }
