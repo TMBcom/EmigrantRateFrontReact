@@ -15,7 +15,7 @@ function Header() {
           <Header_Body/>
           <Routes>
         <Route path="*" element={IsPageExit ? (<Header_LogReg/>) : (<h1>No page found...</h1>)}/>
-        <Route path="/Profile" element={<Header_Profile/>}/>
+        {/* <Route path="/Profile" element={<Header_Profile/>}/> */}
     </Routes>
     </div>
 
