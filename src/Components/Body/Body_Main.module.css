@@ -1,12 +1,8 @@
+
+
 .Body_Main
 {   
-    padding: 1em;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-.Body_Container{
-    
 }

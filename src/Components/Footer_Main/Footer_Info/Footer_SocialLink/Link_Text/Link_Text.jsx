@@ -2,10 +2,10 @@ import React from 'react';
 import style from './Link_Text.module.css';
 
 
-function Link_Text() {
+const Link_Text = (props) => {
     return(
       <div className={style.Link_Text}>
-       
+        {props.text}
       </div>
 
     );

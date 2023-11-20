@@ -1,0 +1,6 @@
+.Header_Profile{
+        display: flex;
+        align-items:center;
+        justify-content:right;
+        font-size: 1.8vh;
+}

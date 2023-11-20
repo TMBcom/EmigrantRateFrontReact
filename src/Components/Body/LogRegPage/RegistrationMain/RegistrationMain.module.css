@@ -1,3 +1,16 @@
 .Registration_Main{
- 
+    padding-top: 14vh;
+    padding-bottom: 14vh;
+}
+
+.Registration_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
 }

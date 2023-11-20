@@ -5,7 +5,7 @@ import style from './Registration_Button.module.css';
 function Registration_Button() {
     return(
       <div className={style.Registration_Button}>
-       
+         <button className={style.button}>Зарегистрироваться</button>
       </div>
 
     );

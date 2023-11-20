@@ -1,0 +1,107 @@
+
+  
+  .Emigrant_Card_container{
+    background-color: #000000;
+    width: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Abel');
+  
+  
+  .card {
+    width: 90vh;
+    height: 20vh;
+    background-color: #fff;
+    background:#fff;
+    border-radius: 2vh;
+    overflow: hidden;
+    position: relative;
+    margin: 1vh;
+  }
+  
+  .card .additional {
+    display: flex;
+    position: absolute;
+    width: 15vh;
+    height: 100%;
+    background: #1e88e5;
+    transition: width 0.4s;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .card:hover .additional {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .user_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15vh;
+    position: relative;
+    float: left;
+  }
+  .rate{
+    color: #fff;
+    padding: 0.125rem 0.75rem;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  .emiName{
+    color: #fff;
+  }
+  .status{
+    color: #fff;
+  }
+  
+  .more_info {
+    color: #fff;
+    width: 10vh;
+    float: left;
+    position: absolute;
+    left: 150px;
+    height: 100%;
+  }
+  .status {
+  }
+  .general {
+    color: #000000;
+    padding-top: 2vh;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vh;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+  .nameInfo{
+    
+  }
+  
+  .more {
+  padding-top: 2vh;
+  }
+  .emigrant_Avatar{
+    
+  }
+  .description{
+  
+  }
+  .linkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: none;
+    padding-bottom: 2vh;
+  }

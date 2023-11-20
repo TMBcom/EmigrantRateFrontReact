@@ -1,0 +1,9 @@
+<svg width="201.84mm" height="36mm" version="1.1" viewBox="0 0 201.84 36" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-6.6395 -133.26)">
+  <rect x="6.6394" y="132.94" width="201.84" height="36.318" stroke-width="1.2751"/>
+  <text transform="matrix(.30641 0 0 .30641 54.639 160.73)" fill="#ffffff" font-family="'Franklin Gothic Medium'" font-size="85.333px" stroke-width="8.315" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;shape-inside:url(#rect2);white-space:pre" xml:space="preserve"><tspan x="0" y="0">EmigrantRate
+</tspan></text>
+  <path d="m8.914 139.17h38.161v29.568c-11.633-8.8496-26.516-9.135-38.161 0z" fill="#1e88e5" stroke-width="2.0724"/>
+  <text transform="matrix(1.0018 -.080333 .086485 .99125 0 0)" x="1.3265423" y="161.54507" fill="#000000" font-family="'Franklin Gothic Medium'" font-size="23.148px" stroke-width=".93841" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" xml:space="preserve"><tspan x="1.3265423" y="161.54507" fill="#000000" font-family="'Franklin Gothic Medium'" font-size="23.148px" stroke-width=".93841" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">ER</tspan></text>
+ </g>
+</svg>

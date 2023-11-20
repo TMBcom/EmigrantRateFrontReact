@@ -1,14 +1,18 @@
 import React from 'react';
 import style from './Footer_Main.module.css';
+import Footer_Info from './Footer_Info/Footer_Info';
+import Footer_CompanyInfo from './Footer_CompanyInfo/Footer_CompanyInfo';
 
 
-function Footer_Main() {
+
+const Footer_Main = (props) => {
     return(
       <div class={style.Footer_Main}>
-        <div class={style.Footer_Container}>
-       link_text link_button link_logo footer_websiteInfoShort CompanyLogo About_button Contast_button 
-       LatestNews_Button Portfolio_Button
-       </div>
+          <Footer_Info 
+          state = {props.state}  
+          dispatch={props.dispatch}
+          />
+          <Footer_CompanyInfo/>
     </div>
 
     );
