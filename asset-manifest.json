@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ceadd9d5.css",
-    "main.js": "/static/js/main.2e3f703c.js",
-    "static/js/787.432ff56d.chunk.js": "/static/js/787.432ff56d.chunk.js",
-    "static/media/emp_1.jpg": "/static/media/emp_1.2f2acf53b402d076edb4.jpg",
-    "static/media/TMB_Logo-opt.svg": "/static/media/TMB_Logo-opt.e55d11e4dcfa66aba763c65389016d25.svg",
-    "static/media/emi1.jpg": "/static/media/emi1.fa0e6dd1f73541df48fa.jpg",
-    "static/media/emi_1.jpg": "/static/media/emi_1.fa0e6dd1f73541df48fa.jpg",
-    "static/media/VKLogo.svg": "/static/media/VKLogo.5b47356045945fb4eb2f4a56e4157823.svg",
-    "static/media/profile.svg": "/static/media/profile.f18e605d685765ce25ae73ce169ab9a6.svg",
-    "static/media/EmigrantLog.svg": "/static/media/EmigrantLog.c2644713566dc6f79022318488213053.svg",
-    "index.html": "/index.html",
-    "main.ceadd9d5.css.map": "/static/css/main.ceadd9d5.css.map",
-    "main.2e3f703c.js.map": "/static/js/main.2e3f703c.js.map",
-    "787.432ff56d.chunk.js.map": "/static/js/787.432ff56d.chunk.js.map"
+    "main.css": "/EmigrantRateFrontReact/static/css/main.ceadd9d5.css",
+    "main.js": "/EmigrantRateFrontReact/static/js/main.ddc07a61.js",
+    "static/js/787.432ff56d.chunk.js": "/EmigrantRateFrontReact/static/js/787.432ff56d.chunk.js",
+    "static/media/emp_1.jpg": "/EmigrantRateFrontReact/static/media/emp_1.2f2acf53b402d076edb4.jpg",
+    "static/media/TMB_Logo-opt.svg": "/EmigrantRateFrontReact/static/media/TMB_Logo-opt.e55d11e4dcfa66aba763c65389016d25.svg",
+    "static/media/emi1.jpg": "/EmigrantRateFrontReact/static/media/emi1.fa0e6dd1f73541df48fa.jpg",
+    "static/media/emi_1.jpg": "/EmigrantRateFrontReact/static/media/emi_1.fa0e6dd1f73541df48fa.jpg",
+    "static/media/VKLogo.svg": "/EmigrantRateFrontReact/static/media/VKLogo.5b47356045945fb4eb2f4a56e4157823.svg",
+    "static/media/profile.svg": "/EmigrantRateFrontReact/static/media/profile.f18e605d685765ce25ae73ce169ab9a6.svg",
+    "static/media/EmigrantLog.svg": "/EmigrantRateFrontReact/static/media/EmigrantLog.c2644713566dc6f79022318488213053.svg",
+    "index.html": "/EmigrantRateFrontReact/index.html",
+    "main.ceadd9d5.css.map": "/EmigrantRateFrontReact/static/css/main.ceadd9d5.css.map",
+    "main.ddc07a61.js.map": "/EmigrantRateFrontReact/static/js/main.ddc07a61.js.map",
+    "787.432ff56d.chunk.js.map": "/EmigrantRateFrontReact/static/js/787.432ff56d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceadd9d5.css",
-    "static/js/main.2e3f703c.js"
+    "static/js/main.ddc07a61.js"
   ]
 }
