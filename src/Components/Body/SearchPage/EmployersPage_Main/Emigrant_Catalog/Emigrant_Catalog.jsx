@@ -15,7 +15,7 @@ function Emigrant_Catalog() {
       <div className={style.user_card}>
 
 
-       <img src={Emi} alt="EmiAvatar" width={90} className={style.emigrant_Avatar}/>
+       <img src={Emi} alt="EmiAvatar" width={87} className={style.emigrant_Avatar}/>
         <div className={style.emiName}>ФИО</div>
         <div className={style.status}>Статус</div>
         <div className={style.rate}>Рейтинг</div>

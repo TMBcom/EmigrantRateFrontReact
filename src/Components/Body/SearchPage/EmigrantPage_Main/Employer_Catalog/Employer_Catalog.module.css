@@ -8,13 +8,9 @@
     align-items: center;
     border-radius: 2vh;
   }
-  
-  @import url('https://fonts.googleapis.com/css?family=Abel');
-  
-  
   .card {
     width: 90vh;
-    height: 20vh;
+    height: 22vh;
     background-color: #fff;
     background:#fff;
     border-radius: 2vh;
@@ -47,6 +43,7 @@
     width: 15vh;
     position: relative;
     float: left;
+    padding: 1vh;
   }
   .rate{
     color: #fff;
@@ -63,10 +60,10 @@
   
   .more_info {
     color: #fff;
-    width: 10vh;
+    width: 75vh;
     float: left;
     position: absolute;
-    left: 150px;
+    left: 17vh;
     height: 100%;
   }
   .status {

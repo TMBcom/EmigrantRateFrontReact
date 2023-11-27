@@ -6,6 +6,8 @@
     font-size: 2vh;
     padding-top: 2vh;
     color: #fff;
+    padding-left: 2vh;
+    padding-right: 2vh;
   }
   .ProfileAvatar{
     border: #000 0.5vh solid; 
